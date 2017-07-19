@@ -6,11 +6,20 @@
   height: 70px;
 }
 
+.logo-wrapper {
+  width: 50%;
+}
+
 .logo-text {
   font-family: 'Satisfy', cursive;
   color: #f2767E;  /*orange/pink hightlight*/
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 /*JUMBOTRON */
 .jumbotron {
   background-image: url("../img/hero.jpg");
@@ -32,4 +41,43 @@
 
 .product-img {
   padding: 0px 7.5px;
+}
+
+
+/*FOOTER*/
+
+footer {
+  height: 200px;
+  background-color: #333;
+  padding: 16px;
+}
+
+footer a, footer a:hover {
+  color: #bfc0c1;
+}
+footer img.logo-img {
+  height: 150px;
+
+}
+
+.address-border {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+address {
+  color: #fff;
+}
+
+address>a {
+  color: #BFC0C1;
+}
+
+address>a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dis-block {
+  display: block;
 }

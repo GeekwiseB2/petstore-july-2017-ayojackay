@@ -10,13 +10,17 @@
 </head>
 <body>
 	<header class="container">
-		<img src="img/petstore_logo.png" alt="logo" class="img-responsive logo-img pull-left">
-		<h1 class="logo-text">Pet Store</h1>
-		<ul class="nav nav-pills pull-right">
-		  <li role="presentation"><a href="#">Home</a></li>
-		  <li role="presentation"><a href="#">Products</a></li>
-		  <li role="presentation"><a href="#">Contact Us</a></li>
-		</ul>
+		<div class="flex">
+			<div class="logo-wrapper">
+			<img src="img/petstore_logo.png" alt="logo" class="img-responsive logo-img pull-left">
+			<h1 class="logo-text">Pet Store</h1>
+			</div>
+			<ul class="nav nav-pills pull-right">
+			  <li role="presentation"><a href="#">Home</a></li>
+			  <li role="presentation"><a href="#">Products</a></li>
+			  <li role="presentation"><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
 	</header>
 	<!-- HERO section -->
 	<div class="jumbotron">
@@ -87,6 +91,31 @@
 			</div><!--services ends-->
 		</div><!-- overall row ends -->
 	</div>
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="img/petstore_logo.png" alt="logo" class="img-responsive logo-img">
+				</div>
+				<div class="col-sm-3 address-border">
+					<address>
+						Pet Store<br>
+						Fresno, Ca<br>
+						<a href="mailto:info@petstore.com">info@petstore.com</a>
+					</address>
+				</div>
+				<div class="col-sm-3">
+				<a href="#" class="dis-block"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a><br>
+				<a hef="#" class="dis-block"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a><br>
+				<a href="#" class="dis-block"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a><br>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-xs-12 text-center copyright">
+
+				</div>
+		</div>
+	</footer>
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
